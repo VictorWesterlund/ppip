@@ -3,6 +3,12 @@ Chrome extension that lets you open images in Picture-in-Picture. Just like vide
 
 ![ppip@2](https://user-images.githubusercontent.com/35688133/182881176-9a362307-5c45-43e3-abc0-4b453152d869.png)
 
+## How to use
+1. **Right-click an image on the web**
+2. **Click on "Open image in Picture-in-Picture" from the menu**
+
+![image](https://user-images.githubusercontent.com/35688133/182884631-1b1a773d-3460-47a5-8670-ac36c70109b5.png)
+
 ## Install from the Chrome Web Store
 
 **[Install from the Chrome Web Store](https://chrome.google.com/webstore/detail/Picture-Picture-in-Picture/apihanpmmncboceglanoneboncehmain)**
