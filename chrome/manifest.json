@@ -1,0 +1,28 @@
+{
+	"name": "Picture-Picture-in-Picture",
+	"description": "Open any image on the web in picture-in-picture (PIP)",
+	"version": "1.0.0",
+	"manifest_version": 3,
+	"icons": {
+		"16": "/assets/media/icons/pip@16px.png",
+		"48": "/assets/media/icons/pip@48px.png",
+		"128": "/assets/media/icons/pip@128px.png"
+	},
+	"permissions": ["activeTab", "scripting", "contextMenus"],
+	"host_permissions": [
+		"https://*/*"
+	],
+	"web_accessible_resources": [
+		{
+			"resources": [
+				"assets/js/pip-canvas/PipCanvas.mjs",
+				"assets/css/crossOrigin.css"
+			],
+			"matches": ["https://*/*"]
+		}
+	],
+	"background": {
+		"service_worker": "assets/js/script.js",
+		"type": "module"
+	}
+}

@@ -1,0 +1,3 @@
+[submodule "chrome/assets/js/pip-canvas"]
+	path = chrome/assets/js/pip-canvas
+	url = https://github.com/VictorWesterlund/pip-canvas.git
